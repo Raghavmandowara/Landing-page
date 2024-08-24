@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%),  url(nature1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.navbar{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 20px;
+
+}
+.navbar ul{
+    list-style: none;
+    color: #fff;
+    display: flex;
+  
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    transition: 0.5s;
+}
+.navbar a:hover{
+    color: rgb(255, 0, 111);;
+}
+.navbar img{
+    display: flex;
+    width: 180px;
+    margin-top: -35px;
+}
+.content{
+   cursor: default;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.line{
+    width: 150px;
+    height: 3px;
+    background: rgb(255, 0, 111);
+    margin: 10px auto;
+}
+.content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.ctn{
+    padding: 8px 15px;
+    background: rgb(255, 0, 111);
+    border-radius: 30px;
+    color: #fff;
+    transition: 00.5s;
+}
+.ctn:hover{
+    background: #fff;
+    color: rgb(255, 0, 111);;
+}
+.sec1{
+    width: 80%;
+    margin: 80px auto;
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    font-family: arial;
+    color: gray;
+}
+.events-main{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.events{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.events img{
+  width: 80%;
+}
+.events img:hover{
+    transform: scale(1.1);
+}
+h4{
+    font-size: 3vmin;
+    color: #484872;
+    margin: 20px auto;
+}
+.events p{
+    color: #7c7c7c;
+    padding: 0 50px;
+}
+.events .ctn{
+    margin-top: 30px;
+}
+.explore{
+    width: 100vw;
+    height: 88vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(nature4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.explore-div{
+    width: 50%;
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.explore p{
+    color: #dedede;
+    padding: 0 50px;
+    margin: 20px auto;
+}
+.explore h1{
+    font-size: 7vmin;
+  
+}
+.explore .ctn{
+    margin-top: 30px;
+}
+.sec2{
+    width: 80%;
+    margin: 80px auto;
+}
+.tours{
+    margin-left: 20px;
+    display: flex;
+}
+.imgt{
+    margin-left: 10px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.imgt img{
+    width: 30vmin;
+    margin: 10px;
+}
+.imgt img:hover{
+    transform: scale(1.2);
+}
+.tourtext{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.tourtext h1{
+    color: gray;
+    font-size: 7vmin; 
+}
+.tourtext .line{
+    margin-left: 0;
+}
+.tourtext p{
+    color: #7c7c7c;
+    margin: 20px auto;
+}
+.tourtext .ctn{
+    margin: 30px auto;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 15vh;
+    background: #484872;
+    color: #dedede;  
+}
+footer p{
+    margin: 2px;
+}
+
+
